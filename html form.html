@@ -10,35 +10,35 @@
 
 <body>
     <div>
-        <h1>travel form</h1>
-        <form action="form.php">
+        <h1>Travel Form</h1>
+        <form>
             <!--data goes to backend lang. form.php now that will handle our data-->
             <!--this input takes a text and placeholder prints message and disappear while entering the data-->
-            <input type="text" placeholder="enter your name here">
+            <input type="text" placeholder="Enter your name here"><br>
             <!-- for and id has same id allways its roll no of every tag -->
 
             <!-- ***name must be same for those radio which are working to take any of them only(working for taking section but which section)  -->
             <!-- name is used in backend ex. in backendquestion asked what is value of section(this is name) if selected option a then its (value which we wrote in tag) gets assigned -->
             <label for="sectionida">
                 <input type="radio" value="section a" name="section" id="sectionida"> section a
-            </label>
-
+            </label><br>
+            
             <label for="sectionidb">
                 <input type="radio" value="section b" name="section" id="sectionidb"> section b
-            </label>
+            </label><br>
 
             <label for="sectionidc">
                 <input type="radio" value="section c" name="section" id="sectionidc"> section c
-            </label>
+            </label><br>
             <br>
-            <input type="button">
+            <input type="button" value="Submit">
             <br>
             <label for="foodcanteen">
                 <input type="checkbox" id="foodcanteen" name="canteen" value="wants the cantten card"> want food
             </label>
             <br>
             <!-- to take large text input we use textarea -->
-            <textarea name="explain" id="explain" cols="30" rows="10"> why?</textarea>
+            <textarea name="explain" id="explain" cols="30" rows="10"> why?</textarea><br>
 
             <!-- when we want to give drop option to user we use select tags -->
             <select name="car" id="car">
